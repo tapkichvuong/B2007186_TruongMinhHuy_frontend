@@ -80,7 +80,7 @@ export default {
 
 <template>
     <div class="page row">
-        <div class="col-md-10">
+        <div class="mt-3 col-md-12">
             <InputSearch v-model="searchText"/>
         </div>
         <div class="mt-3 col-md-6">
