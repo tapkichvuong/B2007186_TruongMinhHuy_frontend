@@ -26,8 +26,8 @@ export default {
         </div>
         <div class="p-1">
             <strong>liên hệ yêu thích: &nbsp;</strong>
-            <i v-if="contact.favorite" class="fas fa-check"></i>
-            <i v-else class="fas fa-times"></i>
+            <font-awesome-icon v-if="contact.favorite" icon="fa-solid fa-check" />
+            <font-awesome-icon v-else icon="fa-solid fa-circle-xmark" />
         </div>
     </div>
 </template>

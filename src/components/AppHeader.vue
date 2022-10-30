@@ -5,7 +5,7 @@
             <li class="nav-item">
                 <router-link :to="{name: 'contactbook'}" class="nav-link">
                     Danh bạ
-                    <i class="fas fa-address-book"></i>
+                    <font-awesome-icon icon="fa-solid fa-address-book" />
                 </router-link>
             </li>
         </div>
