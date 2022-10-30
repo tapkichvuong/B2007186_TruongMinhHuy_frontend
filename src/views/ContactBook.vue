@@ -111,6 +111,11 @@ export default {
                     <i class="fas fa-address-card"></i>
                 </h4>
                 <ContactCard :contact="activeContact"/>
+                <router-link :to="{name: 'contact.edit', params: {id: activeContact._id}, }">
+                    <span>
+                        <font-awesome-icon icon="fa-solid fa-pen-to-square" /> Hiệu chỉnh
+                    </span>
+                </router-link>
             </div>
         </div>
     </div>
