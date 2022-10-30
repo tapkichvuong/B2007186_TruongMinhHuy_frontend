@@ -55,13 +55,13 @@
             <ErrorMessage name="phone" class="error-feedback"/>
         </div>
         <div class="form-group form-check">
-            <label for="favorite"> <strong>Liên hệ yêu thích</strong></label>
             <input type="checkbox" name="favorite" class="form-check-input" v-model="contactLocal.favorite">
+            <label for="favorite"> <strong>Liên hệ yêu thích</strong></label>
             <ErrorMessage name="name" class="error-feedback"/>
         </div>
         <div class="form-group">
-            <button class="btn btn-primary">Luu</button>
-            <button v-if="contactLocal._id" type="button" class="ml-2 btn btn-danger" @click="deleteContact">xoa</button>
+            <button class="btn btn-primary">Lưu</button>
+            <button v-if="contactLocal._id" type="button" class="ml-2 btn btn-danger" @click="deleteContact">Xóa</button>
         </div>
     </form>
 </template>
