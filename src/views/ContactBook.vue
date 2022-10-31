@@ -95,11 +95,11 @@ export default {
                     <font-awesome-icon icon="fa-solid fa-arrow-rotate-right" /> Làm mới
                 </button>
 
-                <button class="btn btn-sm btn-success" @click="goToAddContact">
+                <button class="btn btn-sm btn-success" @click="goToAddContact()">
                     <font-awesome-icon icon="fa-solid fa-plus" /> Thêm mới
                 </button>
 
-                <button class="btn btn-sm btn-danger" @click="removeAllContacts">
+                <button class="btn btn-sm btn-danger" @click="removeAllContacts()">
                     <font-awesome-icon icon="fa-solid fa-trash" /> Xóa tất cả
                 </button>
             </div>

@@ -23,7 +23,6 @@ const routes = [
         path:"/contacts/",
         name:"contact.add",
         component:()=>import("@/views/ContactAdd.vue"),
-        props: true
     }
 ];
 
