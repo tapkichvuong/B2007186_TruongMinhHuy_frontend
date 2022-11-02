@@ -7,7 +7,13 @@ export default {
     },
     data() {
         return {
-            contact: null,
+            contact: {
+                'name': "",
+                'phone': "",
+                'email': "",
+                'address': "",
+                'favorite': "",
+            },
             message: "",
         };
     },

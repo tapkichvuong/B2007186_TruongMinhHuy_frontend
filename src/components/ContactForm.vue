@@ -33,7 +33,7 @@ export default {
 </script>
 
 <template>
-    <form @submit="submitContact" :validation-schema="contactFormSchema">
+    <Form @submit="submitContact" :validation-schema="contactFormSchema">
         <div class="form-group">
             <label for="name">Tên</label>
             <Field name="name" type="text" class="form-control" v-model="contactLocal.name" />
@@ -64,7 +64,7 @@ export default {
             <button v-if="contactLocal._id" type="button" class="ml-2 btn btn-danger"
                 @click="deleteContact">Xóa</button>
         </div>
-    </form>
+    </Form>
 </template>
 
 <style scoped>
