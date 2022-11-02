@@ -57,7 +57,7 @@ export default {
         <div class="form-group form-check">
             <input type="checkbox" name="favorite" class="form-check-input" v-model="contactLocal.favorite">
             <label for="favorite"> <strong>Liên hệ yêu thích</strong></label>
-            <ErrorMessage name="name" class="error-feedback" />
+            <ErrorMessage name="favorite" class="error-feedback" />
         </div>
         <div class="form-group">
             <button class="btn btn-primary">Lưu</button>
